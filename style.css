@@ -3,6 +3,11 @@ body {
     margin: 0 50px;
 }
 
+@font-face {
+    font-family: productsans;
+    src: url(media/productsans/ProductSansRegular.ttf);
+}
+
 .google {
     text-align: center;
     font-size: 90px;
@@ -22,6 +27,7 @@ nav ul li a {
 #blueg {
     color: rgb(0, 89, 255);
     margin-left: -20px;
+    font-family: 'productsans';
 }
 
 #redo {
@@ -61,6 +67,25 @@ nav {
     padding: 7px 22px;
     border-radius: 5px;
 }
+
+.box1 {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: -70px;
+    width: 500px;
+    height: 40px;
+    border: solid 1px grey;
+    background-image: url(media/loupe.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+
+.box1:hover {
+    box-shadow: 3px 3px 3px grey;
+}
+
 
 .signin a {
     color: white;
