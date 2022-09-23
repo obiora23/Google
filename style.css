@@ -1,0 +1,67 @@
+body {
+    font-family: Roboto;
+    margin: 0 50px;
+}
+
+.google {
+    text-align: center;
+    font-size: 90px;
+    font-weight: bolder;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#blueg {
+    color: rgb(0, 89, 255);
+    margin-left: -20px;
+}
+
+#redo {
+    color: rgba(255, 38, 0, 0.89);
+    margin-left: -20px;
+}
+
+#bluegg {
+    color: rgb(0, 89, 255);
+    margin-left: -20px;
+}
+
+#yellowo {
+    color: yellow;
+    margin-left: -20px;
+}
+
+#greenl {
+    color: green;
+    margin-left: -20px;
+}
+
+#rede {
+    color: rgba(255, 38, 0, 0.89);
+    margin-left: -20px;
+}
+
+nav {
+    /* float: right; */
+    font-size: 14px;
+    position: relative;
+    left: 1000px;
+}
+
+.signin {
+    background-color: blue;
+    padding: 7px 22px;
+    border-radius: 5px;
+}
+
+.signin a {
+    color: white;
+}
