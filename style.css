@@ -1,11 +1,13 @@
-body {
-  font-family: Roboto;
-  margin: 0 50px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 @font-face {
   font-family: productsans;
   src: url(media/productsans/ProductSansRegular.ttf);
+}
+
+body {
+  font-family: Roboto;
+  margin: 0 50px;
 }
 
 .google {
@@ -94,4 +96,9 @@ nav {
 
 .signin a {
   color: white;
+}
+
+.secondNav ul {
+  display: flex;
+  margin: 0 auto;
 }
