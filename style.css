@@ -27,6 +27,23 @@ nav ul li a {
   color: black;
 }
 
+.nav3 {
+  display: flex;
+  position: relative;
+  left: 10px;
+  justify-content: center;
+  border: solid 1px black;
+  margin-top: 200px;
+}
+
+.nav3 ul li {
+  padding: 0 30px;
+}
+
+.carbon img {
+  width: 10px;
+}
+
 nav ul li {
   display: inline;
   padding: 10px;
@@ -90,6 +107,15 @@ nav {
   background-position: 10px 10px;
 }
 
+.box3 {
+  display: flex;
+  margin: -150px;
+  right: 100px;
+  width: 1500px;
+  height: 40px;
+  color: azure;
+}
+
 .box1:hover {
   box-shadow: 3px 3px 3px grey;
 }
@@ -99,6 +125,18 @@ nav {
 }
 
 .secondNav ul {
-  display: flex;
-  margin: 0 auto;
+  position: relative;
+  left: -550px;
+}
+
+.p2 {
+  margin: 160px;
+  position: relative;
+  left: -200px;
+}
+
+.box2 {
+  position: relative;
+  left: 450px;
+  font-size: small;
 }
